@@ -1,15 +1,13 @@
-//
-//  main.c
-//  pointing text
-//
-//  Created by s20181102932 on 2019/9/24.
-//  Copyright © 2019 wjx. All rights reserved.
-//
-
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+#include<stdio.h>
+int main()
+{
+    int a=52;
+    printf("a的值是%d\n",a);
+    int *i;
+    i=&a;
+    printf("a的地址是%x\n",i);
+    int *x;
+    x=i;
+    printf("a=%d\n",*i);
     return 0;
 }
